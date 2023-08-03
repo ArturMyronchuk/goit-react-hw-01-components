@@ -13,3 +13,63 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.profile {
+  width: 512px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: aqua;
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+}
+li {
+  list-style: none;
+}
+.description p {
+  text-align: left;
+  margin-left: 80px;
+}
+.stats {
+  text-align: left;
+  margin-left: 40px;
+}
+.statistics {
+  background-color: blueviolet;
+}
+.statistics > .title {
+  text-align: center;
+}
+.stat-list {
+  display: flex;
+  gap: 44px;
+  justify-content: center;
+}
+
+.stat-list > .item {
+  height: 40px;
+  width: 100px;
+  background-color: rgb(6, 237, 71);
+  text-align: center;
+  display: grid;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.stat-list > .item > span {
+  text-align: center;
+}
+
+.friend-list {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  margin-top: 80px;
+}
+.transaction-history {
+  background-color: aqua;
+  text-align: center;
+  margin: 0 auto;
+  width: 500px;
+  margin-top: 80px;
+}
+.transaction-history tr {
+  background-color: rgb(155, 223, 99);
+}
