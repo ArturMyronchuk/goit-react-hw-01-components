@@ -17,12 +17,12 @@
 // _____________________________________________
 import React from 'react';
 import ReactDOM from 'react-dom';
-import '../index.css';
 
-import Profile from './Profile/Profile.jsx';
-import Statistics from './Statistics/Statistics';
-import FriendList from './FriendList/Friendlist';
+import { Profile } from './Profile/Profile.jsx';
+import { Statistics } from './Statistics/Statistics';
+import { FriendList } from './FriendList/Friendlist';
 import TransactionHistory from './TransactionHistory/TransactionHistory';
+
 import user from './Profile/user.json';
 import data from './Statistics/data.json';
 import friends from './FriendList/friends.json';
@@ -37,8 +37,7 @@ const App = () => {
         avatar={user.avatar}
         stats={user.stats}
       />
-      <Statistics className="stat" title="Upload stats" stats={data} />
-      {/* <Statistics stats={data} /> */}
+      <Statistics title="Upload stats" stats={data} />
       <FriendList friends={friends} />
       <TransactionHistory items={transactions} />;
     </div>

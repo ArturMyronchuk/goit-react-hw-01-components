@@ -1,0 +1,34 @@
+.friend_list {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-top: 50px;
+  margin: 30px auto;
+}
+.item {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  background-color: rgb(249, 249, 249);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+.status {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.false {
+  background-color: red;
+}
+.true {
+  background-color: green;
+}
+.avatar {
+  background-color: rgb(177, 122, 155);
+}
+.name {
+  font-weight: 500;
+  font-size: 24px;
+}
